@@ -93,6 +93,13 @@
 	box-sizing: border-box;
 }
 
+.height_1{
+	height: 191px;
+}
+.height_2{
+	height: 398px;
+}
+
 .clear{
 	clear: both;
 	display: block;
