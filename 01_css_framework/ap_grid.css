@@ -1,0 +1,101 @@
+/* ap_grid: Basic 12 column css framework;*/
+
+.row{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+}
+
+.container_12{
+	margin: auto;
+}
+
+@media (min-width: 1280px){
+	.container_12{
+		width: 1202px;
+	}
+}
+@media (max-width: 1260px){
+	.container_12{
+		width: 972px;
+	}
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_12{
+	float: left;
+	display: inline-block;
+	padding: 5px;
+}
+
+.container_12 .col_1{
+	width: 8.3333%;
+}
+.container_12 .col_2{
+	width: 16.6667%;
+}
+.container_12 .col_3{
+	width: 25%;
+}
+.container_12 .col_4{
+	width: 33.3333%;
+}
+.container_12 .col_5{
+	width: 41.6667%;
+}
+.container_12 .col_6{
+	width: 50%;
+}
+.container_12 .col_7{
+	width: 58.3333%;
+}
+.container_12 .col_8{
+	width: 66.6667%;
+}
+.container_12 .col_9{
+	width: 75%;
+}
+.container_12 .col_10{
+	width: 83.3333%;
+}
+.container_12 .col_11{
+	width: 91.6667%;
+}
+.container_12 .col_12{
+	width: 100%;
+}
+
+.row,
+.container_12,
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_8,
+.col_9,
+.col_10,
+.col_11,
+.col_12{
+	box-sizing: border-box;
+}
+
+.clear{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+}
