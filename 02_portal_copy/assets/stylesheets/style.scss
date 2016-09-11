@@ -182,7 +182,28 @@ header{
 		font-size: 21px;
 		line-height: 26px;
 	}
+	.smallest_font{
+		font-size: 16px;
+		line-height: 21px;
+	}
 	.art_margin{
 		margin-top: 15px;
+	}
+	.img_max{
+		height: 100%;
+		width: 100%;
+	}
+	.img_max_width{
+		height: auto;
+		width: 100%;
+	}
+	.side_style{
+		background-color: $section_news;
+		padding: 5px 10px 0 10px;
+		height: 50%;
+		img{
+			height: auto;
+			width: 100%;
+		}
 	}
 }
