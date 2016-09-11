@@ -1,0 +1,1 @@
+pbjs.handleAnCB({"result":{"cpm":0.0,"ad":""},"callback_uid":"8601799d7b41fc8"});

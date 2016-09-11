@@ -46,7 +46,79 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/*         Basic Site Layout */
+/**************************Typography*****************************/
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.woff") format("woff"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.ttf") format("truetype"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.svg#roboto_condensedbold") format("svg");
+}
+$header_font: "Roboto", Arial, sans-serif;
+/**************************Colors*********************************/
+$wp_blue: #0a58a3;
+/**************************Basic Site Layout**********************/
 body, html{
 	width: 100%;
+}
+header{
+	height: 64px;
+}
+/****************************Header setup**************************/
+.header{
+	position: relative;
+	background-color: yellow;
+	img{
+		float: left;
+		width: 93px;
+		height: 54px;
+	}
+	ul{
+		display: inline-block;
+		li{
+			float: left;
+			display: inline-block;
+			width: 80px;
+			img{
+				height: 100%;
+				width: auto;
+				margin: auto;
+			}
+			p{
+				position: absolute;
+				bottom: 10px;
+				font-family: $header_font;
+				font-size: 11px;
+				color: $wp_blue;
+				margin-left: 10px;
+			}
+			p:hover{
+				text-decoration: underline;
+			}
+			a{
+				display: block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+		#form{
+			width: 280px;
+			margin-top: 15px;
+			margin-left: 5px;
+			margin-right: 5px;
+			#search_field{
+				width: 216px;
+				height: 29px;
+				border: 2px solid #f2f2f2;
+			}
+			#search_button{
+				width: 50px;
+				height: 33px;
+				overflow: hidden;
+				background-color: #024787;
+				background-image: url("../images/search_button.png");
+				background-repeat: no-repeat;
+				border: none;
+			}
+		}
+	}
 }

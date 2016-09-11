@@ -7,17 +7,18 @@
 	display: block;
 }
 
-.container_12{
+.container_12, .header{
 	margin: auto;
 }
 
 @media (min-width: 1280px){
-	.container_12{
+	.container_12, .header{
 		width: 1202px;
 	}
+
 }
 @media (max-width: 1260px){
-	.container_12{
+	.container_12, .header{
 		width: 972px;
 	}
 }
