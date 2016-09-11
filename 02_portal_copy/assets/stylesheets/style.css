@@ -116,24 +116,24 @@ header {
         background-repeat: no-repeat;
         border: none; }
 
-.first_row .col_6 {
+.row .col_6 {
   background-color: #e6e6c8; }
-.first_row .col_3 {
+.row .col_3 {
   background-color: #c8e6e6; }
-.first_row .col_4 {
+.row .col_4 {
   background-color: #e6c8e6; }
-.first_row .col_8 {
+.row .col_8 {
   background-color: #e6e68c; }
-.first_row article {
+.row article {
   box-sizing: border-box;
   position: relative;
   margin: 5px;
   overflow: hidden;
   display: block; }
-  .first_row article img {
+  .row article img {
     box-sizing: border-box;
     height: 100%; }
-  .first_row article p {
+  .row article p {
     position: absolute;
     left: 0;
     right: 0;
@@ -144,30 +144,40 @@ header {
     color: #fff;
     font-size: 30px;
     line-height: 36px; }
-.first_row article:hover img {
+.row article:hover img {
   border-bottom: 5px solid #eb0000; }
-.first_row article:hover p {
+.row article:hover p {
   text-decoration: underline; }
-.first_row .smaller_font {
+.row .smaller_font {
   font-size: 21px;
   line-height: 26px; }
-.first_row .smallest_font {
+.row .smallest_font {
   font-size: 16px;
   line-height: 21px; }
-.first_row .art_margin {
+.row .art_margin {
   margin-top: 15px; }
-.first_row .img_max {
+.row .img_max {
   height: 100%;
   width: 100%; }
-.first_row .img_max_width {
+.row .img_max_width {
   height: auto;
   width: 100%; }
-.first_row .side_style {
+.row .side_style {
   background-color: #eb0000;
   padding: 5px 10px 0 10px;
   height: 50%; }
-  .first_row .side_style img {
+  .row .side_style img {
     height: auto;
     width: 100%; }
+
+.sport_section article:hover img {
+  border-bottom: 5px solid #47a544; }
+.sport_section .side_style {
+  background-color: #47a544; }
+
+.finance_section article:hover img {
+  border-bottom: 5px solid #0061ce; }
+.finance_section .side_style {
+  background-color: #0061ce; }
 
 /*# sourceMappingURL=style.css.map */

@@ -64,6 +64,8 @@ $article_font: "Roboto Condensed", Arial, sans-serif;
 /**************************Colors*********************************/
 $wp_blue: #0a58a3;
 $section_news: #eb0000;
+$section_sport: #47a544;
+$section_finance: #0061ce;
 /**************************Basic Site Layout**********************/
 body, html{
 	width: 100%;
@@ -133,7 +135,7 @@ header{
 		}
 	}
 }
-.first_row{
+.row{
 	.col_6{
 		background-color: rgb(230,230,200);
 	}
@@ -205,5 +207,25 @@ header{
 			height: auto;
 			width: 100%;
 		}
+	}
+}
+.sport_section{
+	article:hover{
+		img{
+			border-bottom: 5px solid $section_sport;
+		}
+	}
+	.side_style{
+		background-color: $section_sport;
+	}
+}
+.finance_section{
+	article:hover{
+		img{
+			border-bottom: 5px solid $section_finance;
+		}
+	}
+	.side_style{
+		background-color: $section_finance;
 	}
 }
