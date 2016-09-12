@@ -1,0 +1,118 @@
+/* ap_grid: Basic 7 column css framework;*/
+
+.row{
+	margin: 0;
+	padding: 0;
+	position: relative;
+	display: block;
+	overflow: auto;
+}
+
+.container_7, .header{
+	margin: auto;
+}
+
+@media (min-width: 1280px){
+	.container_7, .header{
+		width: 1202px;
+	}
+
+}
+@media (max-width: 1260px){
+	.container_7, .header{
+		width: 972px;
+	}
+}
+
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_1_3,
+.col_2_3{
+	float: left;
+	display: inline-block;
+	padding: 5px;
+}
+
+.container_7 .col_1{
+	width: 14.2857%;
+}
+.container_7 .col_2{
+	width: 28.571%;
+}
+.container_7 .col_3{
+	width: 42.857%;
+}
+.container_7 .col_4{
+	width: 57.1428%;
+}
+.container_7 .col_5{
+	width: 71.428%;
+}
+.container_7 .col_6{
+	width: 85.7142%;
+}
+.container_7 .col_7{
+	width: 100%;
+}
+.container_7 .col_1_3{
+	width: 33.33%;
+}
+.container_7 .col_2_3{
+	width: 66.66%;
+}
+.row,
+.container_7,
+.col_1,
+.col_2,
+.col_3,
+.col_4,
+.col_5,
+.col_6,
+.col_7,
+.col_1_3,
+.col_2_3{
+	box-sizing: border-box;
+}
+
+.height_1{
+	height: 191px;
+}
+.height_2{
+	height: 398px;
+}
+
+.clear{
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+}
+.padding_left_0{
+	padding-left: 10px;
+}
+.padding_right_0{
+	padding-right: 10px;
+}
+.padding_top_0{
+	padding-top: 10px;
+}
+.padding_bottom_0{
+	padding-bottom: 10px;
+}
+.padding_left_10{
+	padding-left: 10px;
+}
+.padding_right_10{
+	padding-right: 10px;
+}
+.padding_top_10{
+	padding-top: 10px;
+}
+.padding_bottom_10{
+	padding-bottom: 10px;
+}

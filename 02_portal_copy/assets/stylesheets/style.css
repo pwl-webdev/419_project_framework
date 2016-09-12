@@ -116,101 +116,109 @@ header {
         background-repeat: no-repeat;
         border: none; }
 
-.row .col_6 {
-  background-color: #e6e6c8; }
-.row .col_3 {
-  background-color: #c8e6e6; }
-.row .col_4 {
-  background-color: #e6c8e6; }
-.row .col_8 {
-  background-color: #e6e68c; }
-.row article {
-  box-sizing: border-box;
-  position: relative;
-  margin: 5px;
-  overflow: hidden;
-  display: block; }
-  .row article img {
+/***************body setup*****************/
+.row {
+  /*.col_6{
+  	background-color: rgb(230,230,200);
+  }
+  .col_3{
+  	background-color: rgb(200,230,230);
+  }
+  .col_4{
+  	background-color: rgb(230,200,230);
+  }
+  .col_8{
+  	background-color: rgb(230,230,140);
+  }*/ }
+  .row article {
     box-sizing: border-box;
-    height: 100%; }
-  .row article p {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    padding: 40px 14px 14px;
-    font-family: "Roboto Condensed", Arial, sans-serif;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
-    color: #fff;
-    font-size: 30px;
-    line-height: 36px; }
-.row article:hover img {
-  border-bottom: 5px solid #eb0000; }
-.row article:hover p {
-  text-decoration: underline; }
-.row .side_articles .weather_box li {
-  display: inline-block;
-  box-sizing: border-box; }
-  .row .side_articles .weather_box li img {
-    width: 93px;
-    height: 60px;
-    box-sizing: border-box; }
-  .row .side_articles .weather_box li img:hover {
-    border-bottom: 5px solid #0a58a3; }
-.row .side_articles .art_list li {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUwAAAAWBAMAAABZIrhJAAAAD1BMVEUAAACmpqZdXV1cXFxVVVXbuY7EAAAAAXRSTlMAQObYZgAAACpJREFUSMft0EENACAQA7CBIyzgXxQOSO65pJXQADCzThrsmwYlmwDA3wOeEQCpHhhVRAAAAABJRU5ErkJggg==);
-  background-repeat: no-repeat; }
-  .row .side_articles .art_list li a {
-    padding-left: 15px;
-    text-decoration: none;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 22px;
-    font-family: "Roboto", Arial, sans-serif;
-    color: #059; }
-  .row .side_articles .art_list li a:hover {
+    position: relative;
+    margin: 5px;
+    overflow: hidden;
+    display: block; }
+    .row article img {
+      box-sizing: border-box;
+      height: 100%; }
+    .row article p {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      padding: 40px 14px 14px;
+      font-family: "Roboto Condensed", Arial, sans-serif;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.75);
+      color: #fff;
+      font-size: 30px;
+      line-height: 36px; }
+  .row article:hover img {
+    border-bottom: 5px solid #eb0000; }
+  .row article:hover p {
     text-decoration: underline; }
-    .row .side_articles .art_list li a:hover p, .row .side_articles .art_list li a:hover div {
+  .row .side_articles .weather_box {
+    margin-bottom: 10px; }
+    .row .side_articles .weather_box li {
+      display: inline-block;
+      box-sizing: border-box; }
+      .row .side_articles .weather_box li img {
+        width: 93px;
+        height: 60px;
+        box-sizing: border-box; }
+      .row .side_articles .weather_box li img:hover {
+        border-bottom: 5px solid #0a58a3; }
+  .row .side_articles .art_list li {
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUwAAAAWBAMAAABZIrhJAAAAD1BMVEUAAACmpqZdXV1cXFxVVVXbuY7EAAAAAXRSTlMAQObYZgAAACpJREFUSMft0EENACAQA7CBIyzgXxQOSO65pJXQADCzThrsmwYlmwDA3wOeEQCpHhhVRAAAAABJRU5ErkJggg==);
+    background-repeat: no-repeat; }
+    .row .side_articles .art_list li a {
+      padding-left: 15px;
+      text-decoration: none;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 22px;
+      font-family: "Roboto", Arial, sans-serif;
+      color: #059; }
+    .row .side_articles .art_list li a:hover {
       text-decoration: underline; }
-  .row .side_articles .art_list li div {
-    display: inline-block;
-    width: 90%; }
-.row .side_articles .art_list li:first-of-type {
-  height: 69px; }
-  .row .side_articles .art_list li:first-of-type img {
-    float: left;
-    height: 69px;
-    width: 31%; }
-  .row .side_articles .art_list li:first-of-type p {
-    font-weight: bold;
-    padding-left: 10px;
-    width: 65%;
+      .row .side_articles .art_list li a:hover p, .row .side_articles .art_list li a:hover div {
+        text-decoration: underline; }
+    .row .side_articles .art_list li div {
+      display: inline-block;
+      width: 90%; }
+  .row .side_articles .art_list li:first-of-type {
+    height: 69px; }
+    .row .side_articles .art_list li:first-of-type img {
+      float: left;
+      height: 69px;
+      width: 31%; }
+    .row .side_articles .art_list li:first-of-type p {
+      font-weight: bold;
+      padding-left: 10px;
+      width: 65%;
+      height: 100%;
+      float: left;
+      display: inline-block; }
+  .row .smaller_font {
+    font-size: 21px;
+    line-height: 26px; }
+  .row .smallest_font {
+    font-size: 16px;
+    line-height: 21px; }
+  .row .art_margin {
+    margin-top: 15px; }
+  .row .col_margin {
+    padding-bottom: 11px; }
+  .row .img_max {
     height: 100%;
-    float: left;
-    display: inline-block; }
-.row .smaller_font {
-  font-size: 21px;
-  line-height: 26px; }
-.row .smallest_font {
-  font-size: 16px;
-  line-height: 21px; }
-.row .art_margin {
-  margin-top: 15px; }
-.row .col_margin {
-  padding-bottom: 11px; }
-.row .img_max {
-  height: 100%;
-  width: 100%; }
-.row .img_max_width {
-  height: auto;
-  width: 100%; }
-.row .side_style {
-  background-color: #eb0000;
-  padding: 5px 10px 0 10px;
-  height: 50%; }
-  .row .side_style img {
+    width: 100%; }
+  .row .img_max_width {
     height: auto;
     width: 100%; }
+  .row .side_style {
+    background-color: #eb0000;
+    padding: 5px 10px 0 10px;
+    height: 50%; }
+    .row .side_style img {
+      height: auto;
+      width: 100%; }
 
 .sport_section article:hover img {
   border-bottom: 5px solid #47a544; }

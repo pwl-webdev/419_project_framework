@@ -137,8 +137,9 @@ header{
 		}
 	}
 }
+/***************body setup*****************/
 .row{
-	.col_6{
+	/*.col_6{
 		background-color: rgb(230,230,200);
 	}
 	.col_3{
@@ -149,7 +150,7 @@ header{
 	}
 	.col_8{
 		background-color: rgb(230,230,140);
-	}
+	}*/
 	article{
 		box-sizing: border-box;
 		position: relative;
@@ -184,6 +185,7 @@ header{
 	}
 	.side_articles{
 		.weather_box{
+			margin-bottom: 10px;
 			li{
 				display: inline-block;
 				box-sizing: border-box;
