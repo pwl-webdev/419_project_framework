@@ -68,6 +68,15 @@ $section_news: #eb0000;
 $section_sport: #47a544;
 $section_finance: #0061ce;
 $art_title: #059;
+.color_sport{
+	background-color: $section_sport;
+}
+.color_finance{
+	background-color: $section_finance;
+}
+.color_news{
+	background-color: $section_news;
+}
 /**************************Basic Site Layout**********************/
 body, html{
 	width: 100%;
@@ -293,4 +302,9 @@ header{
 	.side_style{
 		background-color: $section_finance;
 	}
+}
+.strip{
+	margin: 22px 5px 16px 5px;
+	height: 40px;
+	width: 100%;
 }

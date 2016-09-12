@@ -57,6 +57,15 @@ table {
   font-weight: normal;
   src: url("http://y.wpimg.pl/i/ivar/layout/201201/robotocondensed-regular-webfont.eot?#iefix") format("embedded-opentype"), url("http://y.wpimg.pl/i/ivar/layout/201201/robotocondensed-regular-webfont.woff2") format("woff2"), url("http://y.wpimg.pl/i/ivar/layout/201201/robotocondensed-regular-webfont.woff") format("woff"), url("http://y.wpimg.pl/i/ivar/layout/201201/robotocondensed-regular-webfont.ttf") format("truetype"); }
 /**************************Colors*********************************/
+.color_sport {
+  background-color: #47a544; }
+
+.color_finance {
+  background-color: #0061ce; }
+
+.color_news {
+  background-color: #eb0000; }
+
 /**************************Basic Site Layout**********************/
 body, html {
   width: 100%; }
@@ -229,5 +238,10 @@ header {
   border-bottom: 5px solid #0061ce; }
 .finance_section .side_style {
   background-color: #0061ce; }
+
+.strip {
+  margin: 22px 5px 16px 5px;
+  height: 40px;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
