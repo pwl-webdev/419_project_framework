@@ -54,6 +54,7 @@ table {
   src: url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.eot?#iefix") format("embedded-opentype"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.woff") format("woff"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.ttf") format("truetype"), url("//a.wpimg.pl/a/i/stg/player/fonts/roboto-regular-webfont.svg#roboto_condensedbold") format("svg");
 }
 $header_font: "Roboto", Arial, sans-serif;
+$side_art_font: "Roboto", Arial, sans-serif;
 @font-face {
   font-family: "Roboto Condensed";
   font-style: normal;
@@ -66,6 +67,7 @@ $wp_blue: #0a58a3;
 $section_news: #eb0000;
 $section_sport: #47a544;
 $section_finance: #0061ce;
+$art_title: #059;
 /**************************Basic Site Layout**********************/
 body, html{
 	width: 100%;
@@ -180,6 +182,64 @@ header{
 			text-decoration: underline;
 		}
 	}
+	.side_articles{
+		.weather_box{
+			li{
+				display: inline-block;
+				box-sizing: border-box;
+				img{
+					width: 93px;
+					height: 60px;
+					box-sizing: border-box;
+				}
+				img:hover{
+					border-bottom: 5px solid $wp_blue;
+				}
+			}
+		}
+		.art_list{
+			li{
+				background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUwAAAAWBAMAAABZIrhJAAAAD1BMVEUAAACmpqZdXV1cXFxVVVXbuY7EAAAAAXRSTlMAQObYZgAAACpJREFUSMft0EENACAQA7CBIyzgXxQOSO65pJXQADCzThrsmwYlmwDA3wOeEQCpHhhVRAAAAABJRU5ErkJggg==);
+				background-repeat: no-repeat;
+				a{
+					padding-left: 15px;
+					text-decoration: none;
+					font-weight: normal;
+					font-size: 14px;
+					line-height: 22px;
+					font-family: $side_art_font;
+					color: $art_title;
+				}
+				a:hover{
+					text-decoration: underline;
+					p, div{
+						text-decoration: underline;
+					}
+				}
+				div{
+					display: inline-block;
+					width: 90%;
+				}
+				
+			}
+			li:first-of-type{
+				height: 69px;
+				img{
+					float: left;
+					height: 69px;
+					width: 31%;
+				}
+				p{	
+					font-weight: bold;
+					padding-left: 10px;
+					width: 65%;
+					height: 100%;
+					float: left;
+					display: inline-block;
+				}
+			}
+		}
+	}
 	.smaller_font{
 		font-size: 21px;
 		line-height: 26px;
@@ -190,6 +250,9 @@ header{
 	}
 	.art_margin{
 		margin-top: 15px;
+	}
+	.col_margin{
+		padding-bottom: 11px;
 	}
 	.img_max{
 		height: 100%;
