@@ -243,5 +243,18 @@ header {
   margin: 22px 5px 16px 5px;
   height: 40px;
   width: 100%; }
+  .strip a {
+    text-decoration: none; }
+  .strip a h2:hover, .strip a h3:hover {
+    text-decoration: underline; }
+  .strip h2, .strip h3 {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto Condensed", Arial, sans-serif;
+    margin-top: 7px;
+    margin-left: 7px; }
+  .strip h2 {
+    font-size: 22px; }
 
 /*# sourceMappingURL=style.css.map */

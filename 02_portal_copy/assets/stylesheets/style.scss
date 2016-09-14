@@ -307,4 +307,21 @@ header{
 	margin: 22px 5px 16px 5px;
 	height: 40px;
 	width: 100%;
+	a{
+		text-decoration: none;
+	}
+	a h2:hover, a h3:hover{
+		text-decoration: underline;
+	}
+	h2, h3{
+		display: inline-block;
+		font-size: 18px;
+		color: white;
+		font-family: $article_font;
+		margin-top: 7px;
+		margin-left: 7px;
+	}
+	h2{
+		font-size: 22px;
+	}
 }
